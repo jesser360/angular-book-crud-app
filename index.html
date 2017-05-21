@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="bookApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>BooksRCool</title>
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="/styles/bootstrap-theme.min.css"> -->
+    <link rel="stylesheet" href="/styles/styles.css">
+
+    <!-- VENDOR SCRIPTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.js"></script>
+
+    <!-- APPLICATION SCRIPTS -->
+    <script src="/scripts/app.js"></script>
+    <script src="/scripts/controllers/booksIndexController.js"></script>
+    <script src="/scripts/controllers/booksShowController.js"></script>
+
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Welcome to Book app</h1>
+        <p>Your book binder!</p>
+      </div>
+    </div>
+
+    <div ng-view></div>
+    <div class='panel-footer blue'>
+      <h1>FOOTER,hello</h1>
+      <h1>Cats R Cool 2</h1>
+      <h1>WHat if?</h1>
+      <h1>The hokey Pokey</h1>
+      <h1>is really wha its all about</h1>
+    </div>
+  </body>
+
+</html>

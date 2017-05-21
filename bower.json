@@ -1,0 +1,17 @@
+{
+  "name": "angular-books-crud-lab",
+  "description": "<!-- Location: SF -->",
+  "main": "server.js",
+  "authors": [
+    "Jesser360 <jesser360@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/SF-WDI-LABS/angular-books-crud-lab",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
